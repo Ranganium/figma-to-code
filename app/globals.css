@@ -9,15 +9,36 @@
  */
 :root {
   /* Color */
+  --primary: #ff4d00;
+  --secondary: #2eaab1;
+  --black: #121212;
+  --white: #f0f0f0;
+  --dark-grey: #303030;
+  --accent: #33dc12;
 
   /* Typography – the font itself is loaded in app/layout.js */
   --font-family-primary: var(--font-inter), sans-serif;
+  --font-weight-m: 600;
 
-  /* Spacing: gaps and paddings */
+  /* Spacing:*/
+  /* Padding */
+  --padding-s: 8px;
+  --padding-m: 12px;
+  --padding-l: 16px;
+  --padding-xl: 24px;
+  --padding-xxl: 32px;
 
+  /* Gap */
+  --gap-s: 8px;
   /* Sizes */
 
   /* Border radius */
+  --radius-round: 9999px;
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 12px;
+  --radius-xl: 16px;
+  --radius-xxl: 24px;
 }
 
 * {
